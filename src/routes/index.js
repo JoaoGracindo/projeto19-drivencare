@@ -1,9 +1,9 @@
 import { Router } from "express";
 
-import pacientsRouter from './pacientsRoutes.js'
+import patientsRouter from './patientsRoutes.js'
 
 
 const router = Router();
-app.use('/user', pacientsRouter);
+app.use('/patient', patientsRouter);
 
 export default router;
