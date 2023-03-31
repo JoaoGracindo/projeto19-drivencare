@@ -1,4 +1,4 @@
-export default async function schemaValidate(schema){
+export function validateSchema(schema){
     return (req, res, next) => {
 
         const {error} = schema.validate(req.body, {abortEarly: false});
